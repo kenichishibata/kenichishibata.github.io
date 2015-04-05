@@ -111,6 +111,7 @@ body {
 
 .cover {
   padding: 0 20px;
+
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -168,5 +169,9 @@ body {
 font-family: 'Mr Bedfort', cursive;
 font-size: 170%;
 font-variant: bold;
+}
 
+.margination
+{
+  margin-top:30px;
 }

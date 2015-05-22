@@ -1,0 +1,119 @@
+/*start hover*/
+/* Shutter In Vertical */
+.hvr-shutter-in-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: white;
+  /*background: #f9f2f4;*/
+  /*background: #2098d1;*/
+  /*background: violet;*/
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-in-vertical:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: #e1e1e1;*/
+  /*background: black;*/
+	background: #f9f2f4;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {
+  /*color: white;*/
+  /*color: #222222;*/
+  color: black;
+}
+.hvr-shutter-in-vertical:hover:before, .hvr-shutter-in-vertical:focus:before, .hvr-shutter-in-vertical:active:before {
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+/*shutter in end*/
+
+/*manually inputted*/
+.margin-top-1
+{
+	margin-top: -4%;
+
+}
+.center-text
+{
+	margin-top: 10%;
+	/*margin-left: 2%;*/
+	/*min-height: 10em;*/
+	/*background-color: white;*/
+	/*margin-bottom: 20%;*/
+}
+.pmargin-top-1
+{
+	margin-top: 32%;
+}
+.margin-text
+{
+
+	/*margin-right: 60%;*/
+}
+.pmargin-bot-1
+{
+	margin-bottom: 30%;
+}
+.lift
+{
+	/*position: absolute;*/
+ 	/*z-index: -1;*/
+
+ 	height: 6em;
+ 	margin-top: 5.5%;
+ 	text-align: center;
+ 	background-color: #222222;
+	
+ 	/*padding-right: 42%;*/
+
+
+}
+.mastfoot
+{
+	background-color: #222222;
+	width: 100%;
+	/*margin-left: -10000px;*/
+	margin: 0;
+	padding: 0;\
+	/*margin-right: -500px;*/
+}
+.no-padding
+{
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.no-margin
+{
+	margin: 0;
+}
+.button-orange
+{
+	color: orange;
+}

@@ -9,7 +9,7 @@
     <meta name="author" content="">
    <!--  <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>Contact | K. Shibata</title>
+    <title>Webform| K. Shibata</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -38,8 +38,8 @@
         <div class="cover-container">
 
           <div class="masthead clearfix">
-            <div class="inner center-text lift">
-              <h3 class="masthead-brand"><p class="text-center">Contact Me!</p></h3>
+            <div class="inner center-text">
+              <h3 class="masthead-brand"><p class="kensive text-center">Kenichi Shibata</p></h3>
               <!-- start nav -->
                <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -55,12 +55,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"> HOME</span></a></li>
+<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"> HOME</span></a></li>
             <li><a href="works.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"> PORTFOLIO</span></a></li>
             <li><a href="resume.html"><span class="glyphicon glyphicon-tasks" aria-hidden="true"> RESUME</span></a></li>
-            <li  class="active"><a href="contact.html"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> CONTACT</span></a></li>
-
-            <!-- <li class="dropdown">
+            <li><a href="contact.html"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> CONTACT</span></a></li>            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Action</a></li>
@@ -72,7 +70,7 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li> -->
-          </ul>
+          
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -81,41 +79,22 @@
           </div>
 
           <div class="inner cover margin-top-1">
-            <h1 class="cover-heading">Kenichi Shibata  </h1>
+            <h1 class="cover-heading">A visionary with hopes of a bright future through the power of web 3.0 </h1>
+            <p class="lead">This website contains the works and writtings of Kenichi Shibata for the purposes of career structure and intellectual expression.</p>
             <p class="lead">
-              <address>
-              <strong>For Hiring and Correspondence</strong><br>
-              1-1-25-204 Aoba<br>
-              Kuki City, Saitama Japan<br>
-              <abbr title="Phone">M:</abbr> (+81) 070-2195-0831
-            </address>
-
-            <address>
-              <strong>Email and Social Media</strong><br>
-              <a href="mailto:kenichi.shibata3123@gmail.com">kenichi.shibata@3123@gmail.com</a><br>
-              <a href="https://jp.linkedin.com/in/kenichishibata31">https://jp.linkedin.com/in/kenichishibata31</a><br> 
-              <a href="https://github.com/kenichishibata31">https://github.com/kenichishibata31</a>
-            </address>
-            </p>
-            <p class="lead">
-              <a href="https://jp.linkedin.com/in/kenichishibata31" class="btn btn-lg btn-default hvr-shutter-in-vertical button-orange">Using LinkedIn</a>
+              <a href="#" class="btn btn-lg btn-default">View Presentation</a>
             </p>
             
 
           </div>
 
-          
-            </div>
-
-
+            
         </div>
 
-
       </div>
-      
     </div>
-    <!-- footer -->
-            <div class="mastfoot">
+
+<div class="mastfoot">
             <div class="inner">
               <p>&copy;Copyright 2015, <a href="https://jp.linkedin.com/in/kenichishibata31">Kenichi Shibata</a></p>
             </div>
@@ -124,7 +103,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="dist/js/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>

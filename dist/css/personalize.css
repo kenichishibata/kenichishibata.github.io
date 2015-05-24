@@ -218,5 +218,9 @@ dl dd {
 }
 .whiten
 {
-  
+
+}
+.bold
+{
+  font-weight: 800;
 }

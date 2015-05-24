@@ -189,7 +189,7 @@ dl dd {
   word-spacing: 0.1em;
   line-height: 3em;
   letter-spacing: 0.01em;
-  /*text-align: justify;*/
+  text-align: justify;
   /*text-justify: inter-word;*/
   /*font-weight: 600;*/
   /*font-size: 1.2em;*/
@@ -215,4 +215,8 @@ dl dd {
 {
     float: left;
     margin-right: 1em;
+}
+.whiten
+{
+  
 }

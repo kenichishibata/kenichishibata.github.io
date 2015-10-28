@@ -92,7 +92,7 @@
  	margin-top: 5.5%;
  	text-align: center;
  	background-color: #222222;
-	
+
  	/*padding-right: 42%;*/
 
 
@@ -107,10 +107,7 @@
   z-index: 10000;
 	/*margin-right: -500px;*/
 }
-.navbar
-{
-  z-index: 100000000;
-}
+
 .no-padding
 {
 	padding-left: 0;
@@ -172,19 +169,19 @@ dt
 dl {
     margin-bottom:50px;
 }
- 
+
 dl dt {
     background:#5f9be3;
     color:#fff;
-    float:left; 
-    font-weight:bold; 
-    margin-right:10px; 
-    padding:5px;  
-    width:100px; 
+    float:left;
+    font-weight:bold;
+    margin-right:10px;
+    padding:5px;
+    width:100px;
 }
- 
+
 dl dd {
-    margin:2px 0; 
+    margin:2px 0;
     padding:5px 0;
 }
 /*end*/
@@ -214,7 +211,7 @@ dl dd {
 }
 .back
 {
-  z-index: -100;
+  z-index: -1;
 }
 .progress-label
 {
@@ -228,4 +225,18 @@ dl dd {
 .bold
 {
   font-weight: 800;
+}
+.nav-offensive
+{
+  z-index: 4;
+}
+
+.backdown
+{
+  z-index: 1;
+}
+
+.btn
+{
+  z-index: 100;
 }

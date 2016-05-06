@@ -231,7 +231,12 @@ dl dd {
   z-index: 4;
 }
 
-.backdown
+.zeroindex .backdown
+{
+  z-index: 0;
+}
+
+.oneindex
 {
   z-index: 1;
 }
